@@ -1,0 +1,10 @@
+El problema que se tiene es que cuando una clase contiene miembros que no pueden copiarse 
+directamente (por ejemplo, un std::unique_ptr), 
+el compilador no puede generar automáticamente un constructor de copia.
+Esto ocurre porque std::unique_ptr representa propiedad exclusiva de un recurso, 
+y no permite la copia para evitar que dos objetos apunten al mismo recurso.
+
+Por eso, para solucionarlo lo que hice es 
+implementar un constructor de copia profunda que crea un 
+nuevo unique_ptr con el mismo valor que el original, 
+asegurando que cada objeto tenga su propio tiempo independiente.
