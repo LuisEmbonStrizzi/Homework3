@@ -2,7 +2,7 @@
 
 ## Compilación y ejecución
 
-Para compilar y ejecutar todos los ejercicios, simplemente ejecuta en la raíz del repositorio:
+Para compilar y ejecutar todos los ejercicios, ejecuta en la raíz del repositorio:
 
 ```sh
 make all
