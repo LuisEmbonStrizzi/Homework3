@@ -1,6 +1,6 @@
-#include "../headers/Posicion.hpp"
-#include "../headers/Presion.hpp"
-#include "../headers/SaveFlightData.hpp"
+#include "../includes/Posicion.hpp"
+#include "../includes/Presion.hpp"
+#include "../includes/SaveFlightData.hpp"
 #include <fstream>
 #include <iostream>
 

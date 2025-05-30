@@ -1,4 +1,4 @@
-#include "../headers/Posicion.hpp"
+#include "../includes/Posicion.hpp"
 
 using namespace std;
 

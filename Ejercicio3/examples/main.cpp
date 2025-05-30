@@ -1,5 +1,5 @@
-#include "../headers/JsonBuilder.hpp"
-#include "../headers/JsonData.hpp"
+#include "../includes/JsonBuilder.hpp"
+#include "../includes/JsonData.hpp"
 #include <vector>
 #include <string>
 

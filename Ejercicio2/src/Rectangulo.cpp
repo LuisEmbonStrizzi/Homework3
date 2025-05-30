@@ -1,4 +1,4 @@
-#include "../headers/Rectangulo.hpp"
+#include "../includes/Rectangulo.hpp"
 
 Rectangulo::Rectangulo(const Punto &vertice, double ancho, double largo)
     : verticeInferiorIzquierdo(vertice), ancho(ancho), largo(largo) {}

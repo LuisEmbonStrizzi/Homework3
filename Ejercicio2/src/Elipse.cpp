@@ -1,4 +1,4 @@
-#include "../headers/Elipse.hpp"
+#include "../includes/Elipse.hpp"
 
 Elipse::Elipse(const Punto &centro, double a, double b) : centro(centro), a(a), b(b) {}
 

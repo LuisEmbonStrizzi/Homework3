@@ -1,4 +1,4 @@
-#include "../headers/Circulo.hpp"
+#include "../includes/Circulo.hpp"
 
 Circulo::Circulo(const Punto &centro, double radio) : centro(centro), radio(radio) {}
 
