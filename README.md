@@ -12,7 +12,7 @@ Esto compilará y ejecutará automáticamente los tres ejercicios.
 
 ### Ejecución individual
 
-Si deseas compilar y ejecutar solo un ejercicio específico, puedes usar:
+Para compilar y ejecutar solo un ejercicio específico:
 
 - Para **Ejercicio 1**:
   ```sh
@@ -29,7 +29,7 @@ Si deseas compilar y ejecutar solo un ejercicio específico, puedes usar:
 
 ### Limpiar archivos compilados
 
-Para eliminar los ejecutables generados, ejecuta:
+Para eliminar los ejecutables generados:
 
 ```sh
 make clean
@@ -38,11 +38,5 @@ make clean
 ## Estructura del repositorio
 
 - `Ejercicio1/`: Serialización y deserialización de datos de vuelo.
-- `Ejercicio2/`: Cálculo de áreas de figuras geométricas usando templates.
+- `Ejercicio2/`: Cálculo de áreas de figuras geométricas
 - `Ejercicio3/`: Construcción y visualización de datos en formato JSON.
-
-Cada carpeta contiene su propio código fuente, encabezados y ejemplos.
-
----
-
-Si tienes dudas sobre el funcionamiento de algún ejercicio, revisa el archivo `main.cpp` correspondiente en la carpeta `examples/` de cada ejercicio.
